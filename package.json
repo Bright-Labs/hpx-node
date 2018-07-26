@@ -1,0 +1,32 @@
+{
+  "name": "hpx",
+  "version": "1.0.0",
+  "description": "Call the hacker pixel.",
+  "main": "index.js",
+  "browser": "./browser.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bright-Labs/hpx-node.git"
+  },
+  "author": "Giao Phan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bright-Labs/hpx-node/issues"
+  },
+  "homepage": "https://github.com/Bright-Labs/hpx-node#readme",
+  "dependencies": {
+    "got": "^8.3.2"
+  },
+  "devDependencies": {
+    "canvas-prebuilt": "^1.6.5-prerelease.1",
+    "jest": "^23.4.1"
+  },
+  "jest": {
+    "testEnvironmentOptions": {
+      "resources": "usable"
+    }
+  }
+}
