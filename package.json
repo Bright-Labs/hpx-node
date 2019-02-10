@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/Bright-Labs/hpx-node#readme",
   "dependencies": {
-    "got": "^8.3.2"
+    "got": "^8.3.2",
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "canvas-prebuilt": "^1.6.5-prerelease.1",
